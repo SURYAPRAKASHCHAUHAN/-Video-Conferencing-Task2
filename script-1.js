@@ -27,5 +27,5 @@ function sendMessage() {
     const messageElement = document.createElement('p');
     messageElement.textContent = message;
     chatMessages.appendChild(messageElement);
-    messageInput.value = ''; // Clear the input field
+    messageInput.value = '';
 }
